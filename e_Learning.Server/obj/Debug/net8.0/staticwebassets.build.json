@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "craBYh5BtKyZtdA8MAXsblFaWXAllKZ1tfnoCa2svIE=",
+  "Hash": "9v0bcaZbv7S1rsxEEgChg9kPok5B38WDx8s1r9kt/mA=",
   "Source": "e_Learning.Server",
   "BasePath": "_content/e_Learning.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\david\\source\\repos\\e_Learning\\e_learning.client\\e_learning.client.esproj",
+      "Identity": "C:\\Users\\david\\source\\repos\\E_Learning_GIT\\e_learning.client\\e_learning.client.esproj",
       "Version": 2,
       "Source": "e_learning.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

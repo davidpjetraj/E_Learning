@@ -1,1 +1,2 @@
 C:\Users\david\source\repos\e_Learning\e_learning.client\obj\Debug\e_learning.client.esproj.CoreCompileInputs.cache
+C:\Users\david\Source\Repos\E_Learning_GIT\e_learning.client\obj\Debug\e_learning.client.esproj.CoreCompileInputs.cache

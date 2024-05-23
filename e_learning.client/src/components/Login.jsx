@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Login() {
 
@@ -13,35 +14,28 @@ function Login() {
     }, []);
 
     return (
-        <section className='login-page-wrapper page'>
-            <div className='login-page'>
-                <header>
-                    <h1>Login Page</h1>
-                </header>
-                <p className='message'></p>
-                <div className='form-holder'>
-                    <form action='#' className='login' onSubmit={loginHandler}>
-                        <label htmlFor='email'>Email</label>
-                        <br />
-                        <input type="email" name="Email" id="email" required/>
-                        
-                        <label htmlFor='password'>Password</label>
-                        <br />
-                        <input type="password" name="Password" id="password" required/>
-                        <br />
-                        <input type="checkbox" name="Remember" id="remember" />
-                        <label htmlFor='remember'>Remember Password</label>
-                        <br />
-                        <br />
-                        <input type="submit" value="Login" className='login btn' /> 
-                    </form>
-                </div>
-                <div className='my-5'>
-                    <span>Or </span>
-                    <a href='/register'>Register</a>
-                </div>
+        <form action='#' className='login' onSubmit={loginHandler}>
+            <div className="mb-3">
+                <label htmlFor='email'>Email</label>
+                <input type="email" className="form-control" placeholder="Enter email" name="Email" id="email" required/>
             </div>
-        </section>
+            <div className="mb-3">
+                <label htmlFor='password'>Password</label>
+                <input type="password" className="form-control" placeholder="Enter password" name="Password" id="password" required/>
+            </div>
+            <div className="mb-3">
+                <input type="checkbox" className="custom-control-input" name="Remember" id="remember" />
+                <label className="custom-control-label" htmlFor="customCheck1">
+                Remember me
+                </label>
+            </div>
+            <div className="d-grid">
+                <input type="submit" value="Login" className="btn btn-primary" /> 
+            </div>
+            <p className="forgot-password text-right">
+                Or <a href="/register">Register?</a>
+            </p>
+        </form>
     );
     async function loginHandler(e) {
         e.preventDefault();

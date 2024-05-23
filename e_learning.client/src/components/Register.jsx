@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Register() {
 
@@ -13,36 +14,29 @@ function Register() {
     },[]);
 
     return (
-        <section className='register-page-wrapper page'>
-            <div className='register-page'>
-                <header>
-                    <h1>Register Page</h1>
-                </header>
-                <p className='message'></p>
-                <div className='form-holder'>
-                    <form action='#' className='register' onSubmit={registerHandler}>
-                        <label htmlFor='name'>Name</label>
-                        <br />
-                        <input type="text" name="Name" id="name" required/>
-                        
-                        <label htmlFor='email'>Email</label>
-                        <br />
-                        <input type="email" name="Email" id="email" required/>
-                        
-                        <label htmlFor='password'>Password</label>
-                        <br />
-                        <input type="password" name="PasswordHash" id="password" required/>
-                        
-                        <br />
-                        <input type="submit" value="Register" className='register btn' /> 
-                    </form>
-                </div>
-                <div className='my-5'>
-                    <span>Or </span>
-                    <a href='/login'>Login</a>
-                </div>
-            </div>
-        </section>
+        <form action='#' className='register' onSubmit={registerHandler}>
+        <h3>Register Page</h3>
+        <div className="mb-3">
+            <label htmlFor="name">Full name</label>
+            <input type="text" className="form-control" placeholder="Full name" name="Name" id="name" required />
+        </div>
+        <div className="mb-3">
+            <label htmlFor="email">Email address</label>
+            <input type="email" className="form-control" placeholder="Enter email" name="Email" id="email" required />
+        </div>
+        <div className="mb-3">
+            <label htmlFor="password">Password</label>
+            <input type="password" className="form-control" placeholder="Enter password" name="Password" id="password" required/>
+        </div>
+        <div className="d-grid">
+            <button type="submit" className="btn btn-primary">
+                Register
+            </button>
+        </div>
+        <p className="forgot-password text-right">
+            Already registered <a href="/login">Login?</a>
+        </p>
+    </form>
     );
     async function registerHandler(e){
         e.preventDefault()

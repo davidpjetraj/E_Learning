@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\david\\source\\repos\\e_Learning\\e_Learning.Server\\..\\e_learning.client",
+"WorkingDirectory": "C:\\Users\\david\\source\\repos\\E_Learning_GIT\\e_Learning.Server\\..\\e_learning.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

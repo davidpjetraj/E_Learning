@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\source\\repos\\e_Learning\\e_Learning.Server\\e_Learning.Server.csproj": {}
+    "C:\\Users\\david\\source\\repos\\E_Learning_GIT\\e_Learning.Server\\e_Learning.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\source\\repos\\e_Learning\\e_Learning.Server\\e_Learning.Server.csproj": {
+    "C:\\Users\\david\\source\\repos\\E_Learning_GIT\\e_Learning.Server\\e_Learning.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\source\\repos\\e_Learning\\e_Learning.Server\\e_Learning.Server.csproj",
+        "projectUniqueName": "C:\\Users\\david\\source\\repos\\E_Learning_GIT\\e_Learning.Server\\e_Learning.Server.csproj",
         "projectName": "e_Learning.Server",
-        "projectPath": "C:\\Users\\david\\source\\repos\\e_Learning\\e_Learning.Server\\e_Learning.Server.csproj",
+        "projectPath": "C:\\Users\\david\\source\\repos\\E_Learning_GIT\\e_Learning.Server\\e_Learning.Server.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\source\\repos\\e_Learning\\e_Learning.Server\\obj\\",
+        "outputPath": "C:\\Users\\david\\source\\repos\\E_Learning_GIT\\e_Learning.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
