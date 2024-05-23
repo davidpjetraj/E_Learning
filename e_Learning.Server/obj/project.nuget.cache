@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "lF+nHoH40GUqyJcuCM92IOdPJkSqhgkj41ZZgMvh9e6emC4NSvhWXKPZC6LGs4wzrXDkbPwWeto4v1/4Wctffw==",
   "success": true,
   "projectFilePath": "C:\\Users\\david\\source\\repos\\E_Learning_GIT\\e_Learning.Server\\e_Learning.Server.csproj",
+=======
+  "dgSpecHash": "OZWBb82akJ+nenbn+1k5Atijs+k5j/g/4PlRmD9+QaXpQDn8VBYeMzHQOQaqUomVAEwZe9WIUrpaALAjnDQ/Sw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\david\\OneDrive\\Desktop\\E_Learning\\e_Learning.Server\\e_Learning.Server.csproj",
+>>>>>>> 4e27def42a8ffb912b91c1d8a1b8d08cbff38568
   "expectedPackageFiles": [
     "C:\\Users\\david\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

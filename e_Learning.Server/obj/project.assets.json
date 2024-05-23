@@ -4316,11 +4316,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\david\\Source\\Repos\\E_Learning_GIT\\e_Learning.Server\\e_Learning.Server.csproj",
       "projectName": "e_Learning.Server",
       "projectPath": "C:\\Users\\david\\Source\\Repos\\E_Learning_GIT\\e_Learning.Server\\e_Learning.Server.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\david\\Source\\Repos\\E_Learning_GIT\\e_Learning.Server\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\david\\OneDrive\\Desktop\\E_Learning\\e_Learning.Server\\e_Learning.Server.csproj",
+      "projectName": "e_Learning.Server",
+      "projectPath": "C:\\Users\\david\\OneDrive\\Desktop\\E_Learning\\e_Learning.Server\\e_Learning.Server.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\david\\OneDrive\\Desktop\\E_Learning\\e_Learning.Server\\obj\\",
+>>>>>>> 4e27def42a8ffb912b91c1d8a1b8d08cbff38568
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
